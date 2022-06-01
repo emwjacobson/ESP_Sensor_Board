@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.381
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|73785600|38135400|de6b6bf7-6f82-4366-a13a-dcfe7498ab98|5576cd03-3bad-40c5-9316-1d286895d52a",
+        "silk_over_copper|92025600|38135400|de6b6bf7-6f82-4366-a13a-dcfe7498ab98|1cacb878-9da4-41fc-aa80-018bc841e19a",
+        "silk_over_copper|92025600|38135400|de6b6bf7-6f82-4366-a13a-dcfe7498ab98|4ce9470f-5633-41bf-89ac-74a810939893"
+      ],
       "meta": {
         "version": 2
       },
