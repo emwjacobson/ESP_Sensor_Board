@@ -1,0 +1,18 @@
+(footprint "Pad" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62970024)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 2.135) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ece241dc-f0e0-432a-9282-c4822482face)
+  )
+  (fp_text value "Pad" (at 0 -2.135) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2d5dd6ae-2c65-48c4-87d8-0c0967b169b7)
+  )
+  (fp_line (start 2.6 2.6) (end 2.6 -2.6) (layer "F.CrtYd") (width 0.05) (tstamp 1dcb492f-e8f0-4bd4-8fe5-77ebd1bd2d59))
+  (fp_line (start -2.6 2.6) (end 2.6 2.6) (layer "F.CrtYd") (width 0.05) (tstamp 64258bf0-3739-45fc-bf54-78d79c0acf44))
+  (fp_line (start 2.6 -2.6) (end -2.6 -2.6) (layer "F.CrtYd") (width 0.05) (tstamp 7ac029e7-77f3-4472-950a-916874c96fe1))
+  (fp_line (start -2.6 -2.6) (end -2.6 2.6) (layer "F.CrtYd") (width 0.05) (tstamp c9aec029-0408-42e8-adb3-7ec89a86619c))
+  (pad "1" smd rect (at 0 0) (size 5 5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 92cfa9c6-ee87-4e9e-ab21-fbcc84f9f22f))
+)
